@@ -86,6 +86,7 @@ BODY {
 <p>This work is based upon <a href="https://github.com/NVlabs/imaginaire">Imaginaire</a>. For more details, please visit <a href="https://developer.nvidia.com/maxine">Maxine</a>.
 <br>
 
+
 <h1 align='center'>Our Example Results</h1>
 <table align="center" border="0" cellspacing="0" cellpadding="0">
     <tr>
@@ -97,7 +98,7 @@ BODY {
 <p>&nbsp;</p>
 
 
-<!-- <h1 align='center'>Online Demo</h1>
+<h1 align='center'>Online Demo</h1>
 <p>To run the demo, you can either use the default images or upload your own image. Please do the following steps.</p>
 <ol>
   <li>If you use the default images, simply click on one of <b>Image</b> buttons.</li>
@@ -133,20 +134,19 @@ BODY {
     <input type='button' class="w3-button w3-gray" id='exp_img6' value='Image 6' onclick='displayImage(5);' />
     <input type='button' class="w3-button w3-gray" id='exp_img7' value='Image 7' onclick='displayImage(6);' />
     <input type='button' class="w3-button w3-gray" id='exp_img8' value='Image 8' onclick='displayImage(7);' />   
-    <button id="mine2others" class="w3-button w3-green">Rotate</button>
+    <button id="mine2others" class="w3-button w3-red" style="background-color:lightgreen">Rotate</button>    
 </form>
 
 <form action='#' onsubmit="return false;">     
     <input type='file' class="w3-button w3-red" id='imgfile' />
-    <input type='button' class="w3-button w3-yellow" id='btnLoad' value='Upload' onclick='loadImage();' />    
+    <input type='button' class="w3-button w3-yellow" id='btnLoad' value='Upload' style="background-color:yellow" onclick='loadImage();' />    
 </form>
   <p class="w3-gray">By uploading a file, you are agreeing to this service <a href="term.txt">Terms and Conditions</a>. See our <a href="https://www.nvidia.com/en-us/about-nvidia/privacy-policy/">Privacy Policy</a>.</p>
   <canvas id="viewport_default"></canvas>
   <canvas id="output_default"></canvas>
   <canvas id="viewport"></canvas>
   <canvas id="output"></canvas>
-  <script src="face_redirection_original.js"> </script> -->
-
+  <script src="face_redirection.js"> </script>
 
 
 <h1 align='center'>Video Reconstruction</h1>
