@@ -1,6 +1,6 @@
-@article{wang2020facevid2vid,
-   author  = {Ting-Chun Wang and Arun Mallya and Ming-Yu Liu},
-   title   = {One-Shot Free-View Neural Talking-Head Synthesis for Video Conferencing},
-   journal = {arXiv preprint arXiv:2011.15126},
-   year    = {2020},
+@inproceedings{wang2021facevid2vid,
+   author    = {Ting-Chun Wang and Arun Mallya and Ming-Yu Liu},
+   title     = {One-Shot Free-View Neural Talking-Head Synthesis for Video Conferencing},
+   booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+   year      = {2021},
 }
